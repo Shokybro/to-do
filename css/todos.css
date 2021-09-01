@@ -1,0 +1,127 @@
+h1 {
+  border-radius: 10px 10px 0 0;
+  background: #2980b9;
+  color: #faf5eb;
+  margin: 0;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: normal;
+  text-shadow: 2px 2px 5px rgb(12, 11, 11);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-plus {
+  float: right;
+}
+
+.fa-plus:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: Roboto;
+  background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  padding-left: 25px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+li p {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+li p:hover {
+  cursor: pointer;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+span {
+  background: #e74c3c;
+  height: 36px;
+  width: 36px;
+  margin: 2px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  transition: 0.2s linear;
+  float: right;
+  clear: right;
+  border-radius: 5px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+input {
+  font-size: 18px;
+  background: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #2980b9;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#container { 
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+  margin: 150px auto;
+  background: #f7f7f7;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.6);
+}
+
+.completed {
+  color: rgb(185, 181, 181);
+  text-decoration: line-through;
+}
+
+.alert {
+  font-size: 32px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background: red;
+}
+.through {
+  text-decoration: line-through;
+  color: #ccc5c5;
+}
+.hide {
+  display: none;
+}
